@@ -1,0 +1,387 @@
+{
+	"version": 3,
+	"routes": [
+		{
+			"src": "/community-admin",
+			"headers": {
+				"Location": "/community-admin/getting-started/installation"
+			},
+			"status": 307
+		},
+		{
+			"src": "/db-admin",
+			"headers": {
+				"Location": "/db-admin/getting-started/installation"
+			},
+			"status": 307
+		},
+		{
+			"src": "/site-admin",
+			"headers": {
+				"Location": "/site-admin/getting-started/installation"
+			},
+			"status": 307
+		},
+		{
+			"src": "/user-admin",
+			"headers": {
+				"Location": "/user-admin/getting-started/installation"
+			},
+			"status": 307
+		},
+		{
+			"src": "/community-admin/getting-started/installation",
+			"dest": "/community-admin/getting-started/installation/"
+		},
+		{
+			"src": "/community-admin/getting-started/installation/",
+			"status": 308,
+			"headers": {
+				"Location": "/community-admin/getting-started/installation"
+			}
+		},
+		{
+			"src": "/db-admin/getting-started/installation",
+			"dest": "/db-admin/getting-started/installation/"
+		},
+		{
+			"src": "/db-admin/getting-started/installation/",
+			"status": 308,
+			"headers": {
+				"Location": "/db-admin/getting-started/installation"
+			}
+		},
+		{
+			"src": "/site-admin/getting-started/installation",
+			"dest": "/site-admin/getting-started/installation/"
+		},
+		{
+			"src": "/site-admin/getting-started/installation/",
+			"status": 308,
+			"headers": {
+				"Location": "/site-admin/getting-started/installation"
+			}
+		},
+		{
+			"src": "/user-admin/getting-started/installation",
+			"dest": "/user-admin/getting-started/installation/"
+		},
+		{
+			"src": "/user-admin/getting-started/installation/",
+			"status": 308,
+			"headers": {
+				"Location": "/user-admin/getting-started/installation"
+			}
+		},
+		{
+			"src": "/community-admin/getting-started/second-page",
+			"dest": "/community-admin/getting-started/second-page/"
+		},
+		{
+			"src": "/community-admin/getting-started/second-page/",
+			"status": 308,
+			"headers": {
+				"Location": "/community-admin/getting-started/second-page"
+			}
+		},
+		{
+			"src": "/community-admin/second-category/first-page",
+			"dest": "/community-admin/second-category/first-page/"
+		},
+		{
+			"src": "/community-admin/second-category/first-page/",
+			"status": 308,
+			"headers": {
+				"Location": "/community-admin/second-category/first-page"
+			}
+		},
+		{
+			"src": "/community-admin/second-category/second-page",
+			"dest": "/community-admin/second-category/second-page/"
+		},
+		{
+			"src": "/community-admin/second-category/second-page/",
+			"status": 308,
+			"headers": {
+				"Location": "/community-admin/second-category/second-page"
+			}
+		},
+		{
+			"src": "/community-admin/will/it",
+			"dest": "/community-admin/will/it/"
+		},
+		{
+			"src": "/community-admin/will/it/",
+			"status": 308,
+			"headers": {
+				"Location": "/community-admin/will/it"
+			}
+		},
+		{
+			"src": "/community-admin/will/it/work",
+			"dest": "/community-admin/will/it/work/"
+		},
+		{
+			"src": "/community-admin/will/it/work/",
+			"status": 308,
+			"headers": {
+				"Location": "/community-admin/will/it/work"
+			}
+		},
+		{
+			"src": "/db-admin/getting-started/second-page",
+			"dest": "/db-admin/getting-started/second-page/"
+		},
+		{
+			"src": "/db-admin/getting-started/second-page/",
+			"status": 308,
+			"headers": {
+				"Location": "/db-admin/getting-started/second-page"
+			}
+		},
+		{
+			"src": "/db-admin/second-category/first-page",
+			"dest": "/db-admin/second-category/first-page/"
+		},
+		{
+			"src": "/db-admin/second-category/first-page/",
+			"status": 308,
+			"headers": {
+				"Location": "/db-admin/second-category/first-page"
+			}
+		},
+		{
+			"src": "/db-admin/second-category/second-page",
+			"dest": "/db-admin/second-category/second-page/"
+		},
+		{
+			"src": "/db-admin/second-category/second-page/",
+			"status": 308,
+			"headers": {
+				"Location": "/db-admin/second-category/second-page"
+			}
+		},
+		{
+			"src": "/db-admin/will/it",
+			"dest": "/db-admin/will/it/"
+		},
+		{
+			"src": "/db-admin/will/it/",
+			"status": 308,
+			"headers": {
+				"Location": "/db-admin/will/it"
+			}
+		},
+		{
+			"src": "/db-admin/will/it/work",
+			"dest": "/db-admin/will/it/work/"
+		},
+		{
+			"src": "/db-admin/will/it/work/",
+			"status": 308,
+			"headers": {
+				"Location": "/db-admin/will/it/work"
+			}
+		},
+		{
+			"src": "/site-admin/getting-started/second-page",
+			"dest": "/site-admin/getting-started/second-page/"
+		},
+		{
+			"src": "/site-admin/getting-started/second-page/",
+			"status": 308,
+			"headers": {
+				"Location": "/site-admin/getting-started/second-page"
+			}
+		},
+		{
+			"src": "/site-admin/second-category/first-page",
+			"dest": "/site-admin/second-category/first-page/"
+		},
+		{
+			"src": "/site-admin/second-category/first-page/",
+			"status": 308,
+			"headers": {
+				"Location": "/site-admin/second-category/first-page"
+			}
+		},
+		{
+			"src": "/site-admin/second-category/second-page",
+			"dest": "/site-admin/second-category/second-page/"
+		},
+		{
+			"src": "/site-admin/second-category/second-page/",
+			"status": 308,
+			"headers": {
+				"Location": "/site-admin/second-category/second-page"
+			}
+		},
+		{
+			"src": "/site-admin/will/it",
+			"dest": "/site-admin/will/it/"
+		},
+		{
+			"src": "/site-admin/will/it/",
+			"status": 308,
+			"headers": {
+				"Location": "/site-admin/will/it"
+			}
+		},
+		{
+			"src": "/site-admin/will/it/work",
+			"dest": "/site-admin/will/it/work/"
+		},
+		{
+			"src": "/site-admin/will/it/work/",
+			"status": 308,
+			"headers": {
+				"Location": "/site-admin/will/it/work"
+			}
+		},
+		{
+			"src": "/user-admin/getting-started/second-page",
+			"dest": "/user-admin/getting-started/second-page/"
+		},
+		{
+			"src": "/user-admin/getting-started/second-page/",
+			"status": 308,
+			"headers": {
+				"Location": "/user-admin/getting-started/second-page"
+			}
+		},
+		{
+			"src": "/user-admin/second-category/first-page",
+			"dest": "/user-admin/second-category/first-page/"
+		},
+		{
+			"src": "/user-admin/second-category/first-page/",
+			"status": 308,
+			"headers": {
+				"Location": "/user-admin/second-category/first-page"
+			}
+		},
+		{
+			"src": "/user-admin/second-category/second-page",
+			"dest": "/user-admin/second-category/second-page/"
+		},
+		{
+			"src": "/user-admin/second-category/second-page/",
+			"status": 308,
+			"headers": {
+				"Location": "/user-admin/second-category/second-page"
+			}
+		},
+		{
+			"src": "/user-admin/will/it",
+			"dest": "/user-admin/will/it/"
+		},
+		{
+			"src": "/user-admin/will/it/",
+			"status": 308,
+			"headers": {
+				"Location": "/user-admin/will/it"
+			}
+		},
+		{
+			"src": "/user-admin/will/it/work",
+			"dest": "/user-admin/will/it/work/"
+		},
+		{
+			"src": "/user-admin/will/it/work/",
+			"status": 308,
+			"headers": {
+				"Location": "/user-admin/will/it/work"
+			}
+		},
+		{
+			"src": "/_app/immutable/.+",
+			"headers": {
+				"cache-control": "public, immutable, max-age=31536000"
+			}
+		},
+		{
+			"handle": "filesystem"
+		},
+		{
+			"src": "/.*",
+			"dest": "/fn"
+		}
+	],
+	"overrides": {
+		"index.html": {
+			"path": ""
+		},
+		"community-admin/getting-started/installation.html": {
+			"path": "community-admin/getting-started/installation"
+		},
+		"db-admin/getting-started/installation.html": {
+			"path": "db-admin/getting-started/installation"
+		},
+		"site-admin/getting-started/installation.html": {
+			"path": "site-admin/getting-started/installation"
+		},
+		"user-admin/getting-started/installation.html": {
+			"path": "user-admin/getting-started/installation"
+		},
+		"community-admin/getting-started/second-page.html": {
+			"path": "community-admin/getting-started/second-page"
+		},
+		"community-admin/second-category/first-page.html": {
+			"path": "community-admin/second-category/first-page"
+		},
+		"community-admin/second-category/second-page.html": {
+			"path": "community-admin/second-category/second-page"
+		},
+		"community-admin/will/it.html": {
+			"path": "community-admin/will/it"
+		},
+		"community-admin/will/it/work.html": {
+			"path": "community-admin/will/it/work"
+		},
+		"db-admin/getting-started/second-page.html": {
+			"path": "db-admin/getting-started/second-page"
+		},
+		"db-admin/second-category/first-page.html": {
+			"path": "db-admin/second-category/first-page"
+		},
+		"db-admin/second-category/second-page.html": {
+			"path": "db-admin/second-category/second-page"
+		},
+		"db-admin/will/it.html": {
+			"path": "db-admin/will/it"
+		},
+		"db-admin/will/it/work.html": {
+			"path": "db-admin/will/it/work"
+		},
+		"site-admin/getting-started/second-page.html": {
+			"path": "site-admin/getting-started/second-page"
+		},
+		"site-admin/second-category/first-page.html": {
+			"path": "site-admin/second-category/first-page"
+		},
+		"site-admin/second-category/second-page.html": {
+			"path": "site-admin/second-category/second-page"
+		},
+		"site-admin/will/it.html": {
+			"path": "site-admin/will/it"
+		},
+		"site-admin/will/it/work.html": {
+			"path": "site-admin/will/it/work"
+		},
+		"user-admin/getting-started/second-page.html": {
+			"path": "user-admin/getting-started/second-page"
+		},
+		"user-admin/second-category/first-page.html": {
+			"path": "user-admin/second-category/first-page"
+		},
+		"user-admin/second-category/second-page.html": {
+			"path": "user-admin/second-category/second-page"
+		},
+		"user-admin/will/it.html": {
+			"path": "user-admin/will/it"
+		},
+		"user-admin/will/it/work.html": {
+			"path": "user-admin/will/it/work"
+		}
+	}
+}

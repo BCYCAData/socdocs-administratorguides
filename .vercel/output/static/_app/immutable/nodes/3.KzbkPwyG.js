@@ -1,0 +1,1 @@
+import{r as e}from"../chunks/index.qPAo0Isn.js";const t=!0,r=async()=>{e(307,"/community-admin/getting-started/installation")},n=Object.freeze(Object.defineProperty({__proto__:null,load:r,prerender:t},Symbol.toStringTag,{value:"Module"}));export{n as universal};
