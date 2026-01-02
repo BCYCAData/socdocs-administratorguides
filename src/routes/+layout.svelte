@@ -27,6 +27,12 @@
 
 	const { activeCategory } = createSidebarContext(sidebar);
 
+	/**
+	 * @typedef {'community-admin' | 'db-admin' | 'user-admin' | 'site-admin'} BookNameKey
+	 */
+	/**
+	 * @type {Object.<BookNameKey, string>}
+	 */
 	const bookNames = {
 		'community-admin': 'Community Administration',
 		'db-admin': 'Database Administration',
